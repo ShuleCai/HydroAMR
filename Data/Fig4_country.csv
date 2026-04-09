@@ -1,0 +1,121 @@
+"","topic_category","country","value","proportion"
+"1","AMR_surveillance","Bolivia",9,90
+"2","AMR_surveillance","French Polynesia",0,0
+"3","AMR_surveillance","Dominica",3,100
+"4","AMR_surveillance","Nicaragua",1,100
+"5","AMR_surveillance","Cyprus",2,12.5
+"6","AMR_surveillance","Mauritius",1,25
+"7","AMR_surveillance","New Caledonia",1,33.3333333333333
+"8","AMR_surveillance","Fiji",1,33.3333333333333
+"9","AMR_surveillance","Faroe Islands",1,100
+"10","AMR_surveillance","Chile",54,51.9230769230769
+"11","AMR_surveillance","Saint Kitts and Nevis",0,0
+"12","AMR_surveillance","Philippines",25,56.8181818181818
+"13","AMR_surveillance","Costa Rica",12,85.7142857142857
+"14","AMR_surveillance","Vietnam",37,50
+"15","AMR_surveillance","Croatia",40,60.6060606060606
+"16","AMR_surveillance","Bangladesh",76,59.8425196850394
+"17","AMR_surveillance","Lesotho",1,100
+"18","AMR_surveillance","Burkina Faso",14,100
+"19","AMR_surveillance","Malaysia",99,49.2537313432836
+"20","AMR_surveillance","Indonesia",43,31.1594202898551
+"21","AMR_surveillance","Grenada",2,100
+"22","AMR_surveillance","Norway",60,54.5454545454545
+"23","AMR_surveillance","Cote d'Ivoire",5,83.3333333333333
+"24","AMR_surveillance","Benin",5,62.5
+"25","AMR_surveillance","Ecuador",14,77.7777777777778
+"26","AMR_surveillance","Portugal",156,66.3829787234042
+"27","AMR_surveillance","Nigeria",110,71.4285714285714
+"28","AMR_surveillance","Tunisia",35,53.8461538461538
+"29","AMR_surveillance","Egypt",79,24.1590214067278
+"30","AMR_surveillance","Zimbabwe",5,71.4285714285714
+"31","AMR_control_removal","Bolivia",1,10
+"32","AMR_control_removal","French Polynesia",0,0
+"33","AMR_control_removal","Dominica",0,0
+"34","AMR_control_removal","Nicaragua",0,0
+"35","AMR_control_removal","Cyprus",14,87.5
+"36","AMR_control_removal","Mauritius",0,0
+"37","AMR_control_removal","New Caledonia",0,0
+"38","AMR_control_removal","Fiji",0,0
+"39","AMR_control_removal","Faroe Islands",0,0
+"40","AMR_control_removal","Chile",5,4.80769230769231
+"41","AMR_control_removal","Saint Kitts and Nevis",0,0
+"42","AMR_control_removal","Philippines",1,2.27272727272727
+"43","AMR_control_removal","Costa Rica",0,0
+"44","AMR_control_removal","Vietnam",5,6.75675675675676
+"45","AMR_control_removal","Croatia",2,3.03030303030303
+"46","AMR_control_removal","Bangladesh",0,0
+"47","AMR_control_removal","Lesotho",0,0
+"48","AMR_control_removal","Burkina Faso",0,0
+"49","AMR_control_removal","Malaysia",8,3.98009950248756
+"50","AMR_control_removal","Indonesia",1,0.72463768115942
+"51","AMR_control_removal","Grenada",0,0
+"52","AMR_control_removal","Norway",4,3.63636363636364
+"53","AMR_control_removal","Cote d'Ivoire",0,0
+"54","AMR_control_removal","Benin",1,12.5
+"55","AMR_control_removal","Ecuador",0,0
+"56","AMR_control_removal","Portugal",36,15.3191489361702
+"57","AMR_control_removal","Nigeria",4,2.5974025974026
+"58","AMR_control_removal","Tunisia",5,7.69230769230769
+"59","AMR_control_removal","Egypt",9,2.75229357798165
+"60","AMR_control_removal","Zimbabwe",0,0
+"61","antmicrobial_agent","Bolivia",0,0
+"62","antmicrobial_agent","French Polynesia",1,50
+"63","antmicrobial_agent","Dominica",0,0
+"64","antmicrobial_agent","Nicaragua",0,0
+"65","antmicrobial_agent","Cyprus",0,0
+"66","antmicrobial_agent","Mauritius",3,75
+"67","antmicrobial_agent","New Caledonia",0,0
+"68","antmicrobial_agent","Fiji",2,66.6666666666667
+"69","antmicrobial_agent","Faroe Islands",0,0
+"70","antmicrobial_agent","Chile",14,13.4615384615385
+"71","antmicrobial_agent","Saint Kitts and Nevis",0,0
+"72","antmicrobial_agent","Philippines",11,25
+"73","antmicrobial_agent","Costa Rica",1,7.14285714285714
+"74","antmicrobial_agent","Vietnam",12,16.2162162162162
+"75","antmicrobial_agent","Croatia",16,24.2424242424242
+"76","antmicrobial_agent","Bangladesh",27,21.259842519685
+"77","antmicrobial_agent","Lesotho",0,0
+"78","antmicrobial_agent","Burkina Faso",0,0
+"79","antmicrobial_agent","Malaysia",43,21.3930348258706
+"80","antmicrobial_agent","Indonesia",56,40.5797101449275
+"81","antmicrobial_agent","Grenada",0,0
+"82","antmicrobial_agent","Norway",13,11.8181818181818
+"83","antmicrobial_agent","Cote d'Ivoire",1,16.6666666666667
+"84","antmicrobial_agent","Benin",2,25
+"85","antmicrobial_agent","Ecuador",3,16.6666666666667
+"86","antmicrobial_agent","Portugal",27,11.4893617021277
+"87","antmicrobial_agent","Nigeria",25,16.2337662337662
+"88","antmicrobial_agent","Tunisia",10,15.3846153846154
+"89","antmicrobial_agent","Egypt",100,30.5810397553517
+"90","antmicrobial_agent","Zimbabwe",0,0
+"91","aquaculture_health","Bolivia",0,0
+"92","aquaculture_health","French Polynesia",1,50
+"93","aquaculture_health","Dominica",0,0
+"94","aquaculture_health","Nicaragua",0,0
+"95","aquaculture_health","Cyprus",0,0
+"96","aquaculture_health","Mauritius",0,0
+"97","aquaculture_health","New Caledonia",2,66.6666666666667
+"98","aquaculture_health","Fiji",0,0
+"99","aquaculture_health","Faroe Islands",0,0
+"100","aquaculture_health","Chile",31,29.8076923076923
+"101","aquaculture_health","Saint Kitts and Nevis",2,100
+"102","aquaculture_health","Philippines",7,15.9090909090909
+"103","aquaculture_health","Costa Rica",1,7.14285714285714
+"104","aquaculture_health","Vietnam",20,27.027027027027
+"105","aquaculture_health","Croatia",8,12.1212121212121
+"106","aquaculture_health","Bangladesh",24,18.8976377952756
+"107","aquaculture_health","Lesotho",0,0
+"108","aquaculture_health","Burkina Faso",0,0
+"109","aquaculture_health","Malaysia",51,25.3731343283582
+"110","aquaculture_health","Indonesia",38,27.536231884058
+"111","aquaculture_health","Grenada",0,0
+"112","aquaculture_health","Norway",33,30
+"113","aquaculture_health","Cote d'Ivoire",0,0
+"114","aquaculture_health","Benin",0,0
+"115","aquaculture_health","Ecuador",1,5.55555555555556
+"116","aquaculture_health","Portugal",16,6.80851063829787
+"117","aquaculture_health","Nigeria",15,9.74025974025974
+"118","aquaculture_health","Tunisia",15,23.0769230769231
+"119","aquaculture_health","Egypt",139,42.5076452599388
+"120","aquaculture_health","Zimbabwe",2,28.5714285714286

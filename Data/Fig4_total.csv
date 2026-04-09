@@ -1,0 +1,39 @@
+Topic,Count,CustomName,Topic.category
+0,2218,Enterobacteriaceae isolation,AMR surveillance
+1,2086,ARG detection,AMR surveillance
+2,1215,AMR strain isolation,AMR surveillance
+3,1185,Natural antimicrobial extract,Antimicrobial agent
+4,1149,AMR removal in WWTP,AMR control & removal
+5,1123,Aeromonas infection in aquaculture,Aquaculture health & disease control
+7,887,Bacteriophage,Antimicrobial agent
+8,819,Vibrio isolation,AMR surveillance
+9,801,Disinfection in WWTP,AMR control & removal
+10,729,Probiotic use in aquaculture,Aquaculture health & disease control
+11,658,Tetracycline resistance in aquaculture,AMR surveillance
+12,617,mcr gene detection,AMR surveillance
+13,512,Antibiotic residue detection,AMR surveillance
+14,452,Salmonella isolation,AMR surveillance
+15,314,Antimicrobial nanoparticle,Antimicrobial agent
+16,302,Viral infection in aquaculture,Aquaculture health & disease control
+19,241,MRSA isolation,AMR surveillance
+20,208,Microplastics & plastisphere in water,AMR surveillance
+21,187,Antimicrobial peptide,Antimicrobial agent
+22,178,Antimicrobial use,AMR surveillance
+24,143,Listeria in seafood,AMR surveillance
+25,130,Sewage sludge composting & ARGs,AMR control & removal
+26,121,Shewanella algae isolation,AMR surveillance
+27,116,Bacterial cold water disease,Aquaculture health & disease control
+28,112,Biosensors for AMR detection,AMR surveillance
+30,108,Aeromonas phage,Antimicrobial agent
+31,150,Heavy metal in water,AMR surveillance
+33,92,Shrimp disease control,Aquaculture health & disease control
+34,86,Waterborne nontuberculous mycobacteria,AMR surveillance
+35,84,Adsorption removal of antibiotics,AMR control & removal
+39,76,Membrane bioreactor,AMR control & removal
+40,74,Campylobacter isolation,AMR surveillance
+42,59,Landfill leachate,AMR surveillance
+43,57,Antimicrobial pharmacokinetic,Aquaculture health & disease control
+46,51,Clostridium isolation & toxin,AMR surveillance
+50,47,Yersinia infection in aquaculture,Aquaculture health & disease control
+51,43,Legionella isolation,AMR surveillance
+52,41,Stenotrophomonas maltophilia isolation,AMR surveillance
