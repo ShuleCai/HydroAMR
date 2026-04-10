@@ -6,9 +6,9 @@ This repository provides a reproducible workflow for literature-based synthesis 
 ## Directory structure
 ```text
 HydroAMR/
-├── README.md
+├── README.md            # project document
 ├── LICENSE
-├── Data/
+├── Data/                # pre-processed input tables
 │   ├── Fig1a.csv
 │   ├── Fig1b.csv
 │   ├── Fig1c.rds
@@ -35,7 +35,7 @@ HydroAMR/
 │   ├── Fig5e_total.csv
 │   ├── Fig5f.csv
 │   └── Fig5f_total.csv
-├── Figures/
+├── Figures/             # graphical outputs
 │   ├── Fig1a.pdf
 │   ├── Fig1b.pdf
 │   ├── Fig1c.pdf
@@ -53,7 +53,7 @@ HydroAMR/
 │   ├── Fig4d.pdf
 │   ├── Fig5abc.pdf
 │   └── Fig5def.pdf
-└── Scripts/
+└── Scripts/             # R scripts for generating figures
     ├── Fig1a.R
     ├── Fig1b.R
     ├── Fig1c.R
