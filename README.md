@@ -54,7 +54,6 @@ HydroAMR/
 │   ├── Fig5abc.pdf
 │   └── Fig5def.pdf
 └── Scripts/
-    ├── detach_package_func.R
     ├── Fig1a.R
     ├── Fig1b.R
     ├── Fig1c.R
