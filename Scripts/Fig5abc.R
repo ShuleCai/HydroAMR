@@ -16,15 +16,15 @@ total2 <- read.csv("./Data/Fig5c_total.csv", check.names = F, row.names = 1)
 p1_data <- data.frame(
   category = "Hydrocycle\nproportion",
   status = c("Yes", "No"),
-  percentage = c(5.070298, 100-5.070298)
+  percentage = c(5.070298, 100 - 5.070298)
 )
-pic_line_width = 0.2
+pic_line_width <- 0.2
 p1 <- ggplot(p1_data, aes(x = category, y = percentage, fill = status)) +
   geom_col(position = "stack", width = 0.8, linewidth = pic_line_width, color = "black") +
   geom_text(aes(label = ifelse(status == "Yes", paste0(round(percentage, 2), "%"), "")),
-            position = position_stack(vjust = 0.5), 
-            size = 4, fontface = "bold", color = "white") +
-  # scale_fill_manual(values = c("Yes" = "#4E79A7", "No" = "#E0E0E0")) +
+    position = position_stack(vjust = 0.5),
+    size = 4, fontface = "bold", color = "white"
+  ) +
   geom_col_pattern(
     position = position_stack(reverse = FALSE),
     pattern = c("stripe", "crosshatch"),
@@ -33,15 +33,13 @@ p1 <- ggplot(p1_data, aes(x = category, y = percentage, fill = status)) +
     pattern_spacing = 0.13,
     pattern_color = "white",
     pattern_alpha = 0.3,
-    # pattern_size = 0.1,
     pattern_size = 0.1,
     pattern_fill = "white",
-    colour = "black",  # Bar outline color
+    colour = "black", # Bar outline color
     width = 0.85
   ) +
   scale_fill_manual(
     values = c("#08807f", "#000d7c"),
-    # labels = c("Other AMR studies", "AMR studies in hydrology")
   ) +
   labs(x = "", y = "Percentage (%)") +
   theme_few() +
@@ -53,39 +51,24 @@ p1 <- ggplot(p1_data, aes(x = category, y = percentage, fill = status)) +
     panel.grid.minor.y = element_blank(),
     legend.position = "none"
   ) +
-  scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 20)) 
+  scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 20))
 
 # Create the second percentage bar chart
 p2_data <- data.frame(
   category = "Hydro-only",
   status = c("Yes", "No"),
-  percentage = c(58.51528, 100-58.51528)
+  percentage = c(58.51528, 100 - 58.51528)
 )
 
 p2 <- ggplot(p2_data, aes(x = category, y = percentage, fill = status)) +
   geom_col(position = "stack", width = 0.8, linewidth = pic_line_width, color = "black") +
   geom_text(aes(label = ifelse(status == "Yes", paste0(round(percentage, 2), "%"), "")),
-            position = position_stack(vjust = 0.5), 
-            size = 4, fontface = "bold", color = "white") +
-  # geom_col_pattern(
-  #   position = position_stack(reverse = FALSE),
-  #   pattern = c("crosshatch", "stripe"),
-  #   pattern_angle = c(30, 45),
-  #   pattern_density = 0.1,
-  #   pattern_spacing = 0.13,
-  #   pattern_color = "white",
-  #   pattern_alpha = 0.3,
-  #   # pattern_size = 0.1,
-  #   pattern_size = 0.1,
-  #   pattern_fill = "white",
-  #   colour = "black",  # Bar outline color
-  #   width = 0.85
-  # ) +
+    position = position_stack(vjust = 0.5),
+    size = 4, fontface = "bold", color = "white"
+  ) +
   scale_fill_manual(
     values = c("grey90", "#898989"),
-    # labels = c("Other AMR studies", "AMR studies in hydrology")
   ) +
-  # scale_fill_manual(values = c("Yes" = "#F28E2B", "No" = "#E0E0E0")) +
   labs(x = "", y = "Percentage (%)") +
   theme_few() +
   theme(
@@ -101,8 +84,9 @@ p2 <- ggplot(p2_data, aes(x = category, y = percentage, fill = status)) +
 # Create the short bar chart for p3 (total values)
 p3_top <- ggplot(total1, aes(x = name, y = Total)) +
   geom_col(fill = "#bebebe", width = 0.6, alpha = 1, color = "black", linewidth = pic_line_width) +
-  geom_text(aes(label = sprintf("%.0f", Total)), 
-            vjust = -0.5, size = 3) +
+  geom_text(aes(label = sprintf("%.0f", Total)),
+    vjust = -0.5, size = 3
+  ) +
   labs(x = NULL, y = "Total (M USD)") +
   theme_few() +
   theme(
@@ -144,8 +128,9 @@ p3_bottom <- ggplot(plot_data_pct1, aes(x = name, y = Percentage, fill = `Resear
 # Create the short bar chart for p4 (total values)
 p4_top <- ggplot(total2, aes(x = name, y = Total)) +
   geom_col(fill = "#bebebe", width = 0.6, alpha = 1, color = "black", linewidth = pic_line_width) +
-  geom_text(aes(label = sprintf("%.0f", Total)), 
-            vjust = -0.5, size = 3) +
+  geom_text(aes(label = sprintf("%.0f", Total)),
+    vjust = -0.5, size = 3
+  ) +
   labs(x = NULL, y = "Total (M USD)") +
   theme_few() +
   theme(
@@ -181,11 +166,11 @@ p4_bottom <- ggplot(plot_data_pct2, aes(x = name, y = Percentage, fill = `Resear
   scale_y_continuous(labels = scales::percent_format(scale = 100))
 
 # Create two empty placeholder plots above p1 and p2
-empty1 <- ggplot() + 
+empty1 <- ggplot() +
   theme_void() +
   theme(plot.margin = margin(0, 0, 0, 0))
 
-empty2 <- ggplot() + 
+empty2 <- ggplot() +
   theme_void() +
   theme(plot.margin = margin(0, 0, 0, 0))
 
@@ -194,11 +179,13 @@ combined_plot <- empty1 + empty2 + p3_top + p4_top +
   p1 + p2 + p3_bottom + p4_bottom +
   plot_layout(
     nrow = 2,
-    heights = c(0.15, 1),  # First row for short bar charts, second row for the main panels
-    widths = c(1, 1, 3, 4),  # Width ratios for the four columns
+    heights = c(0.15, 1), # First row for short bar charts, second row for the main panels
+    widths = c(1, 1, 3, 4), # Width ratios for the four columns
     guides = "collect"
   ) & theme(legend.position = "bottom")
 
-ggsave(plot = combined_plot, 
-       filename = "./Figures/Fig5abc.pdf",
-       family = "ArialMT", width = 7)
+ggsave(
+  plot = combined_plot,
+  filename = "./Figures/Fig5abc.pdf",
+  family = "ArialMT", width = 7
+)
